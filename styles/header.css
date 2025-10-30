@@ -1,0 +1,47 @@
+header {
+    padding-block: 32px;
+    
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: none;
+    width: 100%;
+}
+
+#profile {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+#profile > div {
+    max-width: 384px;
+}
+
+#profile h1 {
+    color: var(--text-color-primary);
+    font: var(--text-large);
+    margin-bottom: 8px;
+}
+
+#profile p {
+    font: var(--text-mid);
+
+}
+
+.info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+}
+
+.info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
